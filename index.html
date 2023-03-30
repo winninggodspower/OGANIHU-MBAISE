@@ -23,15 +23,20 @@
 <body>
 
     <nav class="navbar navbar-expand-md navbar-dark bg-primary" aria-label="Thirteenth navbar example">
-        <div class="container">
+        <div class="container me-auto">
+            <a class="navbar-brand col-lg-3  fw-bold d-block d-md-none" href="#">
+                <img class="brand-img" src="./img/logo.svg">
+                OGANIHU MBAISE
+            </a>
+            
             <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
+            
             <div class="collapse navbar-collapse d-lg-flex py-2" id="navbarsExample11">
-                <a class="navbar-brand col-lg-3 me-0 fw-bold" href="#">
+                <a class="navbar-brand col-lg-3 fw-bold d-none d-md-block" href="#">
                     <img class="brand-img" src="./img/logo.svg">
                     OGANIHU MBAISE
                 </a>
@@ -228,7 +233,7 @@
 
     <section id="section-3" class="my-5 bg-primary text-light pt-5">
 
-        <div id="section-3-A" class="container pb-5">
+        <div id="section-3-A" class="container pb-4">
             <h2 class="text-center">MISSION</h2>
 
             <p class="text-center">To develop and commercialise Mbaise using the latest fin-tech facilities and
@@ -238,12 +243,12 @@
                 the Environment.</p>
         </div>
 
-        <div id="2-sided-images-container" class="row row-cols-2 pb-5">
+        <div id="two-sided-images-container" class="row row-cols-2 pb-4">
             <img width="100%" class="pe-0" src="./img/2-sided-images/img-1.png">
             <img width="100%" class="ps-0" src="./img/2-sided-images/img-2.png">
         </div>
 
-        <div id="section-3-C" class="container pb-5">
+        <div id="section-3-C" class="container pb-4">
             <h2 class="text-center">MOTTO</h2>
 
             <p class="text-center">PATRIOTISM, PEACE AND DEVELOPMENT</p>
@@ -262,19 +267,59 @@
         <h2 class="text-center mb-5">Event Showcase</h2>
 
         <div id="event-showcase" class="row  container mx-auto">
-            <div id="showcase-group-1" class="showcase-group">
+            <div class="showcase-group">
                 <img src="img\showcase\WhatsApp Image 2023-03-23 at 11.20.png" width="100%" height="100%">
                 <img src="img/showcase/WhatsApp Image 2023-03-23 at 11.20 1.png" width="100%" height="100%">
                 <img src="img/showcase/IMG-20221228-WA0039.png" width="100%" height="100%">
                 <img src="img/showcase/WhatsApp Image 2023-03-23 at 11.20-1.png" width="100%" height="100%">
                 <!-- </div> -->
-                <img src="img\showcase\WhatsApp Image 2023-03-23 at 11.20 2.png" width="100%" height="100%">
-                <img src="img/showcase/WhatsApp Image 2023-03-23 at 11.20 1.png" width="100%" height="100%">
+                <img src="img\showcase\WhatsApp Image 2023-03-23 at 11.20 2.png" style="object-position: top;" width="100%" height="100%">
+                <img src="img\showcase\IMG-20221228-WA0042.png" width="100%" height="100%">
                 <img src="img\showcase\IMG-20221228-WA0047.png" width="100%" height="100%">
                 <img src="img\showcase\WhatsApp Image 2023-03-23 at 11.20-2.png" width="100%" height="100%">
             </div>
         </div>
 
+    </section>
+
+    <section id="section-5" class="bg-white pt-5">
+        <div class="text-center mb-5">
+            <h2 class="mb-4">Key Officers</h2>
+            <p class="w-75 w-md-50 mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore  magna aliqua.
+            </p>
+        </div>
+
+        <div class="container ">
+
+            <div id="officers-container" class="row row-cols-1 row-cols-sm-2 row-cols-md-4 text-center w-100 position-relative text-center text-md-start m-0" style="z-index: 2;">
+                <div class="col">
+                    <img src="./img/profile_image.jpg" class="mb-2" width="255" height="257" alt="">
+                    <h3>Amb. Chinedum Anowuru </h3>
+                    <p>President General</p>
+                </div>
+                <div class="col">
+                    <img src="./img/profile_image.jpg" class="mb-2" width="255" height="257" alt="">
+                    <h3>Prof. Chima Onuoha</h3>
+                    <p>Deputy President General</p>
+                </div>
+                <div class="col">
+                    <img src="./img/profile_image.jpg" class="mb-2" width="255" height="257" alt="">
+                    <h3>Mazi Kevin Uzoma Anya</h3>
+                    <p>Secretary General</p>
+                </div>
+                <div class="col">
+                    <img src="./img/profile_image.jpg" class="mb-2" width="255" height="257" alt="">
+                    <h3>Chief Chidi Njoku </h3>
+                    <p>Treasurer</p>
+                </div>
+                <div class="position-absolute w-100 bg-primary d-none d-md-block " style="height: 360px; z-index: -1; top: 15%; border-radius: 26px;  transform: translateX(-50px);"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="section-6">
+        
     </section>
 
     <script src="main.js" async defer></script>
