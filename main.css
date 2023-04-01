@@ -20,6 +20,10 @@ body {
   background-color: var(--primary-color) !important;
 }
 
+.border-primary {
+  border-color: var(--primary-color) !important;
+}
+
 .bg-milk {
   background: var(--milk);
 }
@@ -120,6 +124,11 @@ body {
 #officers-container img {
   max-width: 100%;
   object-fit: cover;
+}
+
+form input,
+form text {
+  border-radius: 8px;
 }
 
 @media (max-width: 600px) {

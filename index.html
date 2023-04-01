@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+
     <link rel="stylesheet" href="main.css">
 </head>
 
@@ -77,21 +79,21 @@
                     <span class="container">
                         A SOCIO-CULTURAL,
                         THINK-TANK, ECONOMIC
-                        AND NONE-POLITICAL ORGANISATION
+                        AND NON-POLITICAL ORGANISATION
                     </span>
                 </div>
                 <div class="swiper-slide" id="slide-2">
                     <span class="container">
                         A SOCIO-CULTURAL,
                         THINK-TANK, ECONOMIC
-                        AND NONE-POLITICAL ORGANISATION
+                        AND NON-POLITICAL ORGANISATION
                     </span>
                 </div>
                 <div class="swiper-slide" id="slide-3">
                     <span class="container">
                         A SOCIO-CULTURAL,
                         THINK-TANK, ECONOMIC
-                        AND NONE-POLITICAL ORGANISATION
+                        AND NON-POLITICAL ORGANISATION
                     </span>
                 </div>
 
@@ -243,9 +245,9 @@
                 the Environment.</p>
         </div>
 
-        <div id="two-sided-images-container" class="row row-cols-2 pb-4">
-            <img width="100%" class="pe-0" src="./img/2-sided-images/img-1.png">
-            <img width="100%" class="ps-0" src="./img/2-sided-images/img-2.png">
+        <div id="two-sided-images-container" class="row row-cols-2 pb-4 w-100 m-0">
+            <img width="100%" class="px-0" src="./img/2-sided-images/img-1.png">
+            <img width="100%" class="px-0" src="./img/2-sided-images/img-2.png">
         </div>
 
         <div id="section-3-C" class="container pb-4">
@@ -289,9 +291,9 @@
             </p>
         </div>
 
-        <div class="container ">
+        <div class="container pb-5">
 
-            <div id="officers-container" class="row row-cols-1 row-cols-sm-2 row-cols-md-4 text-center w-100 position-relative text-center text-md-start m-0" style="z-index: 2;">
+            <div id="officers-container" class="row row-cols-1 row-cols-sm-2 row-cols-md-4 text-center w-100 position-relative text-center text-md-start m-0 pb-5" style="z-index: 2;">
                 <div class="col">
                     <img src="./img/profile_image.jpg" class="mb-2" width="255" height="257" alt="">
                     <h3>Amb. Chinedum Anowuru </h3>
@@ -318,8 +320,63 @@
         </div>
     </section>
 
-    <section id="section-6">
-        
+    <section id="section-6 bg-milk my-5">
+        <div class="container mx-auto row row-cols-1 row-cols-md-2 row-gap-2 my-5">
+            <div class="col bg-primary text-white px-4 py-5" style="border-radius: 8px;">
+                <h2 class="text-center">Get in Touch</h2>
+                <div class="h-100 d-flex flex-column justify-content-evenly fw-bold">
+                    <div class="d-flex">
+                        <img src="./img/phoneIcon.svg" alt="">
+                        <p class="ms-2 mb-0">
+                            234 8064760847<br>
+                            234 8037505184 
+                        </p>
+                    </div>
+                    <div class="d-flex">
+                        <img src="./img/emailIcon.svg" alt="">
+                        <div class="ms-2">
+                            <span>Email</span>
+                            <p class="m-0">
+                                Hello@studio.co
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <img src="./img/locationIcon.svg" alt="">
+                        <div class="ms-2">
+                            <p class="m-0">C/O Ekeanyanwu & Associates, Old Brooklyn Hotel Building, No. 22, Peremabiri Street, D Line, 
+                            P.O Box 11455, Port-Harcour 
+                            Rivers State.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col py-5">
+                <h3 class="fw-bold mb-3">Come and Join Us</h3>
+                
+                <form>
+                    <div class="mb-4">
+                        <label for="first_name" class="form-label">First Name</label>
+                        <input type="email" class="form-control border-primary border id="first_name" placeholder="Enter your first name" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-4">
+                        <label for="last_name" class="form-label">Last Name</label>
+                        <input type="email" class="form-control border-primary border id="last_name" placeholder="Enter your last name" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-4">
+                      <label for="email" class="form-label">Your Email</label>
+                      <input type="email" class="form-control border-primary border id="email" placeholder="Enter your email" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control border-primary border placeholder="Enter your message" id="message" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+        </div>
     </section>
 
     <script src="main.js" async defer></script>
@@ -335,6 +392,7 @@
                 el: '.swiper-pagination',
                 clickable: true,
             },
+            autoplay: true,
 
         });
 
