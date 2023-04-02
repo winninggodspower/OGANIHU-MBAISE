@@ -50,10 +50,10 @@
                         <a class="nav-link" href="#section-2">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ">Membership</a>
+                        <a class="nav-link " href="#officers-container">Membership</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link " href="#">Contact</a>
+                        <a class="nav-link " href="#section-6">Contact</a>
                     </li>
                 </ul>
                 <div class="ms-3 d-lg-flex col-lg-3 justify-content-lg-end">
@@ -367,27 +367,29 @@
             <div class="col py-5">
                 <h3 class="fw-bold mb-3">Come and Join Us</h3>
 
-                <form>
+                <form action="https://formsubmit.co/winninggodspower@gmail.com" method="post">
                     <div class="input-container">
                         <label for="first_name" class="form-label">First Name</label>
-                        <input type="text" class="form-control border-primary border" id="first_name"
-                            placeholder="Enter your first name" aria-describedby="emailHelp">
+                        <input name="first name" type="text" class="form-control border-primary border" id="first_name"
+                            placeholder="Enter your first name" required aria-describedby="emailHelp">
                     </div>
                     <div class="input-container">
                         <label for="last_name" class="form-label">Last Name</label>
-                        <input type="text" class="form-control border-primary border" id="last_name"
-                            placeholder="Enter your last name" aria-describedby="emailHelp">
+                        <input name="last name" type="text" class="form-control border-primary border" id="last_name"
+                            placeholder="Enter your last name" required>
                     </div>
                     <div class="input-container">
                         <label for="email" class="form-label">Your Email</label>
-                        <input type="email" class="form-control border-primary border" id="email"
-                            placeholder="Enter your email" aria-describedby="emailHelp">
+                        <input name="email" type="email" class="form-control border-primary border" id="email"
+                            placeholder="Enter your email" required>
                     </div>
                     <div class="input-container">
                         <label for="message" class="form-label">Message</label>
-                        <textarea class="form-control border-primary border" placeholder="Enter your message"
-                            id="message" rows="3"></textarea>
+                        <textarea name="message" class="form-control border-primary border" placeholder="Enter your message"
+                            id="message" required rows="3"></textarea>
                     </div>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_autoresponse" value="Thanks for contacting OGANIHU MBAISE 🎉. we'll get back to you soon">
                     <button type="submit" class="btn bg-primary text-white px-4 py-2">Send</button>
                 </form>
             </div>
@@ -402,9 +404,9 @@
                 <div class=" ">
                     <ul class="nav flex-column ">
                         <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0 ">About</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">Membership</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">Contact</a></li>
+                        <li class="nav-item mb-2"><a href="#section-2" class="nav-link text-white p-0 ">About</a></li>
+                        <li class="nav-item mb-2"><a href="#officers-container" class="nav-link text-white p-0">Membership</a></li>
+                        <li class="nav-item mb-2"><a href="#section-6" class="nav-link text-white p-0">Contact</a></li>
                     </ul>
                 </div>
             </div>
