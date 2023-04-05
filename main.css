@@ -147,6 +147,30 @@ form button {
   object-fit: cover;
 }
 
+.swiper-slide h3 {
+  /* font-family: 'Montserrat'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.swiper-slide p {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.swiper-slide img {
+  object-fit: cover;
+}
+.swiper-pagination {
+  bottom: var(--swiper-pagination-bottom, 8%) !important;
+}
+
 form input,
 form text {
   border-radius: 8px;

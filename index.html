@@ -37,7 +37,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse d-lg-flex py-2" id="navbarsExample11">
+            <div class="collapse navbar-collapse d-lg-flex py-2 text-center" id="navbarsExample11">
                 <a class="navbar-brand col-lg-3 fw-bold d-none d-md-block" href="#">
                     <img class="brand-img" src="./img/logo.svg">
                     OGANIHU MBAISE
@@ -298,78 +298,80 @@
             <div class="">
                 
                 <div class="swiper mySwiper ">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide flex-column text-dark mb-4">
+                    <div class="swiper-wrapper position-relative" style="left:30px; height: 420px;">
+                        <div class="swiper-slide flex-column text-white mb-5">
                             <img class="d-block" src="./img/profile_image.jpg" width="100%" height="275" style="max-width: 255px;" alt="">
                             <div class="text-start ">
                                 <h3 class="text-start">Amb. Chinedum Anowuru </h3>
                                 <p>President General</p>
                             </div>
                         </div>
-                        <div class="swiper-slide flex-column text-dark">
+                        <div class="swiper-slide flex-column text-white">
                             <img class="d-block" src="./img/profile_image.jpg" width="100%" style="max-width: 255px;" height="275" alt="">
                             <div class="text-start ">
                                 <h3 class="text-start">Prof. Chima Onuoha </h3>
                                 <p>Deputy President General</p>
                             </div>
                         </div>
-                        <div class="swiper-slide flex-column text-dark">
+                        <div class="swiper-slide flex-column text-white">
                             <img class="d-block" src="./img/profile_image.jpg" width="100%" style="max-width: 255px;" height="275" alt="">
                             <h3 class="text-start">Mazi Kevin Uzoma Anya</h3>
                             <p>Secretary General</p>
                         </div>
-                        <div class="swiper-slide flex-column text-dark">
+                        <div class="swiper-slide flex-column text-white">
                             <img class="d-block" src="./img/profile_image.jpg" width="100%" style="max-width: 255px;" height="275" alt="">
                             <div class="text-start ">
                                 <h3 class="text-start">Chief Chidi Njoku </h3>
                                 <p>Treasurer</p>
                             </div>
                         </div>
-                        <div class="swiper-slide flex-column text-dark">
+                        <div class="swiper-slide flex-column text-white">
                             <img class="d-block" src="./img/profile_image.jpg" width="100%" style="max-width: 255px;" height="275" alt="">
                             <div class="text-start ">
                                 <h3 class="text-start">Amb. Chinedum Anowuru </h3>
                                 <p>President General</p>
                             </div>
                         </div>
-                        <div class="swiper-slide flex-column text-dark">
+                        <div class="swiper-slide flex-column text-white">
                             <img class="d-block" src="./img/profile_image.jpg" width="100%" style="max-width: 255px;" height="275" alt="">
                             <div class="text-start ">
                                 <h3 class="text-start">Amb. olobo </h3>
                                 <p>President General</p>
                             </div>
                         </div>
-                        <div class="swiper-slide flex-column text-dark">
+                        <div class="swiper-slide flex-column text-white">
                             <img class="d-block" src="./img/profile_image.jpg" width="100%" style="max-width: 255px;" height="275" alt="">
                             <div class="text-start ">
                                 <h3 class="text-start">Amb. chinda garrot </h3>
                                 <p>assignstant General</p>
                             </div>
                         </div>
-                        <div class="swiper-slide flex-column text-dark">
+                        <div class="swiper-slide flex-column text-white">
                             <img class="d-block" src="./img/profile_image.jpg" width="100%" style="max-width: 255px;" height="275" alt="">
                             <div class="text-start ">
                                 <h3 class="text-start">Amb. Chinedum Anowuru </h3>
                                 <p>President General</p>
                             </div>
                         </div>
-                        <div class="swiper-slide flex-column text-dark">
+                        <div class="swiper-slide flex-column text-white">
                             <img class="d-block" src="./img/profile_image.jpg" width="100%" style="max-width: 255px;" height="275" alt="">
                             <div class="text-start ">
                                 <h3 class="text-start">Amb. Chinedum Anowuru </h3>
                                 <p>President General</p>
                             </div>
                         </div>
+                        
                     </div>
+
+                    <div class="position-absolute bg-primary"
+                    style="height: 351px; width: 97%; top: 15%; border-radius: 26px;"></div>
                 
                     <div class="swiper-pagination"></div>
                 </div>
 
                 
             </div>
-            <div class="position-absolute w-100 h-50 bg-primary">
 
-            </div>
         </div>
 
     </section>
@@ -485,12 +487,18 @@
     <script>
         var officerSwiper = new Swiper(".mySwiper", {
             slidesPerView: 2,
-            spaceBetween: 20,
+            spaceBetween: 30,
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
             },
             breakpoints: {
+                // when window width is >= 320px
+                // 320: {
+                // slidesPerView: 1,
+                // spaceBetween: 30
+                // },
+       
                 // when window width is >= 320px
                 640: {
                 slidesPerView: 3,
@@ -499,7 +507,7 @@
                 // when window width is >= 1000px
                 1000: {
                 slidesPerView: 4,
-                spaceBetween: 30
+                spaceBetween: 40
                 },
             },
             autoplay: true
