@@ -34,11 +34,13 @@ body {
   font-family: Roboto, sans-serif !important;
 }
 
-.input-container input {
+.input-container input,
+textarea {
   color: var(--primary-color) !important;
 }
 
 .input-container input,
+textarea,
 form button {
   border-radius: 8px;
   font-family: Roboto, sans-serif !important;
