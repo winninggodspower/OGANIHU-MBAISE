@@ -207,6 +207,24 @@ form text {
   border-radius: 8px;
 }
 
+footer h1 {
+  margin-bottom: 30px;
+}
+
+footer h5 {
+  margin-bottom: 30px;
+  font-family: Playfair Display;
+  font-size: 22px;
+}
+
+footer p {
+  line-height: 21px;
+}
+
+footer {
+  padding-top: 100px;
+}
+
 @media (max-width: 600px) {
   .swiper-slide {
     font-size: 30px;
@@ -215,6 +233,14 @@ form text {
 
   #section-2 h2 {
     font-size: 45px;
+  }
+
+  footer h1 {
+    margin-bottom: 15px;
+  }
+
+  footer h5 {
+    margin-bottom: 15px;
   }
 
   .showcase-group {
