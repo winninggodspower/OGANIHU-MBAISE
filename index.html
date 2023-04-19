@@ -26,7 +26,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary" aria-label="Thirteenth navbar example">
         <div class="container me-auto">
-            <a class="navbar-brand col-lg-3 fw-bold d-block d-lg-none" href="#">
+            <a class="navbar-brand col-lg-3 fw-bold d-block d-lg-none" style="width: fit-content;" href="#">
                 <img class="brand-img" class="" src="./img/logo.svg">
                 OGANIHU MBAISE
             </a>
@@ -37,9 +37,9 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse d-lg-flex text-center" id="navbarsExample11">
+            <div class="collapse navbar-collapse d-lg-flex text-center justify-content-between" id="navbarsExample11">
                 <a class="navbar-brand col-lg-3 fw-bold d-none d-lg-block"
-                    style="font-family: Playfair Display; font-size: 28px;" href="#">
+                    style="font-family: Playfair Display; font-size: 28px; width: fit-content;" href="#">
                     <img class="brand-img" class="" src="./img/logo.svg">
                     OGANIHU MBAISE
                 </a>
@@ -57,16 +57,12 @@
                         <a class="nav-link " href="#section-6">Contact</a>
                     </li>
                 </ul>
-                <div class="ms-3 d-lg-flex col-lg-3 justify-content-lg-end">
+                <div class="ms-3 justify-content-lg-end">
                     <a href="#" class="me-2 nav-social-icon">
                         <img src="./img/facebook.svg" alt="facebook link" />
                     </a>
                     <a href="#" class="me-2 nav-social-icon">
                         <img src="./img/twitter.svg" alt="facebook link" />
-                    </a>
-                    <a href="#" class="nav-social-icon">
-                        <i class="bi bi-instagram"></i>
-                        <!-- <img src="./img/instagram.svg" alt="twitter link" /> -->
                     </a>
                 </div>
             </div>
@@ -216,9 +212,9 @@
                 just a few.
             </p>
 
-            <p>KEY OFFICERS/TRUSTEES/PATRONS:</p>
+            <p class="mt-5">KEY OFFICERS/TRUSTEES/PATRONS:</p>
 
-            <p>A. OFFICERS:</p>
+            <p class="my-4">A. OFFICERS:</p>
 
             <p class="mb-4">
                 Ambassador Chinedum Anowuru, JP - PRESIDENT GENERAL,
@@ -233,7 +229,7 @@
                 Patrick Ekeanyanwu, Esq - Legal Adviser.
             </p>
 
-            <p>B. TRUSTEES:</p>
+            <p class="my-4">B. TRUSTEES:</p>
 
             <p class="mb-4">
                 Chief Dominic Nzeji,
@@ -245,7 +241,7 @@
                 Mazi Kevin Uzoma Anya
             </p>
 
-            <p>C. PATRONS:</p>
+            <p class="">C. PATRONS:</p>
             <ul type="none" class="ps-0">
                 <li>Chief Dr. Clement Chinenye Iro,</li>
                 <li>Prof. Celestine Chukwuemeka Nwachukwu</li>
@@ -329,9 +325,6 @@
     <section id="section-5" class="bg-white pt-5">
         <div class="text-center mb-5">
             <h2 class="mb-4">Key Officers</h2>
-            <p class="w-75 w-md-50 mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore magna aliqua.
-            </p>
         </div>
 
         <div class="container pb-5">
@@ -481,26 +474,31 @@
 
 
     <footer class="py-5 pb-2 mx-auto bg-primary text-white">
-        <div class="">
-            <div
-                class="d-flex flex-column flex-md-row justify-content-md-between container mx-auto text-center text-md-start pb-4">
-                <h1 class="fw-bold"> OGANIHU <br> MBAISE</h1>
-                <div class=" ">
-                    <ul class="nav flex-column ">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#section-2" class="nav-link text-white p-0 ">About</a></li>
-                        <li class="nav-item mb-2"><a href="#section-5" class="nav-link text-white p-0">Membership</a>
-                        </li>
-                        <li class="nav-item mb-2"><a href="#section-6" class="nav-link text-white p-0">Contact</a></li>
-                    </ul>
+        <div class="container">
+            <div class="row">
+                <div
+                    class="d-flex flex-column flex-md-row justify-content-md-between container mx-auto text-center text-md-start pb-4">
+                    <h1 class="fw-bold"> OGANIHU <br> MBAISE</h1>
+                    <div class=" ">
+                        <ul class="nav flex-column ">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#section-2" class="nav-link text-white p-0 ">About</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#section-5"
+                                    class="nav-link text-white p-0">Membership</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#section-6" class="nav-link text-white p-0">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <hr class="m-0 p-0 text-dark">
-            <div
-                class="d-flex flex-column flex-sm-row justify-content-between  container mx-auto py-4 my-4 text-center text-md-start">
-                <p>© Copyright 2022 Oganihu Mbaise</p>
-                <p>Term & Privacy Policy</p>
-            </div>
+        </div>
+        <hr class="m-0 p-0 text-dark">
+        <div
+            class="d-flex flex-column flex-sm-row justify-content-between  container mx-auto py-4 my-4 text-center text-md-start">
+            <p>© Copyright 2022 Oganihu Mbaise</p>
+            <p>Term & Privacy Policy</p>
         </div>
     </footer>
 

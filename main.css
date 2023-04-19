@@ -161,6 +161,10 @@ form button {
   margin-top: 20px;
 }
 
+#read-more p {
+  line-height: 30px !important;
+}
+
 .showcase-group {
   height: 680px;
 }
