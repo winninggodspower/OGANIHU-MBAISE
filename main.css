@@ -156,6 +156,11 @@ form button {
   object-fit: cover;
 }
 
+#section-5 h3 {
+  color: var(--primary-color);
+  margin-top: 20px;
+}
+
 .showcase-group {
   height: 680px;
 }
