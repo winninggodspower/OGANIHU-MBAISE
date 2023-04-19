@@ -495,14 +495,15 @@
                 </div>
 
                 <div class="col-md-4 offset-md-1 mb-3 text-center">
-                    <form>
+                    <form method="post" action="https://formsubmit.co/support@oganihumbaise.org">
                         <h5>Want To Know More</h5>
                         <p>Enter email address for other servicer info</p>
                         <div class="d-flex flex-column gap-2 mx-auto" style="width: 280px; max-width: 100%;">
                             <label for="newsletter1" class="visually-hidden">Email address</label>
-                            <input id="newsletter1" type="text" class="form-control rounded-0" placeholder="Your E-Mail"
-                                style="height: 40px;">
-                            <button class="btn btn-outline-light rounded-0" type="button"
+                            <input type="hidden" name="usage: " value="newsletter subscription">
+                            <input id="newsletter1" type="text" name="email" class="form-control rounded-0"
+                                placeholder="Your E-Mail" style="height: 40px;">
+                            <button class="btn btn-outline-light rounded-0" type="submit"
                                 style="height: 40px;">Subscribe</button>
                         </div>
                     </form>
