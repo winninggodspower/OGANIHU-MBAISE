@@ -24,26 +24,26 @@ body {
   border-color: var(--primary-color) !important;
 }
 
-nav{
-	height: 100px;
-	transition: height 500ms ease-in-out;
+nav {
+  height: 100px;
+  transition: height 500ms ease-in-out;
 }
 
 nav div.container-fluid {
-	height: 100%;
-    /** align-content: center; **/ 	 
+  height: 100%;
+  /** align-content: center; **/
 }
 
 .nav-social-icon {
   color: var(--primary-color);
 }
 
-.playfair{
-	font-family: Playfair Display;
+.playfair {
+  font-family: Playfair Display;
 }
 
-.text-primary{
-	color: var(--primary-color) !important;
+.text-primary {
+  color: var(--primary-color) !important;
 }
 
 .input-container {
@@ -62,7 +62,7 @@ textarea {
 }
 
 #section-2 p {
-	line-height: 30px;
+  line-height: 30px;
 }
 
 .input-container input,
@@ -91,8 +91,8 @@ footer h1 {
   font-family: 'Playfair Display', serif;
 }
 
-#section-4 h2{
-	color: var(--primary-color) !important;
+#section-4 h2 {
+  color: var(--primary-color) !important;
 }
 
 #section-1 .swiper-slide {
@@ -111,22 +111,20 @@ footer h1 {
 }
 
 #slide-2 {
-  background: 
-    url('./img/showcase/IMG-20221228-WA0042.png');
+  background: url('./img/showcase/IMG-20221228-WA0042.png');
   background-size: cover;
 }
 
 #slide-3 {
-  background: 
-    url('./img/slide/IMG-20221228-WA0044.png');
+  background: url('./img/slide/IMG-20221228-WA0044.png');
 }
 
 #slide-4 {
-  background: 
-    url('./img/slide-1.png');
+  background: url('./img/slide-1.png');
 }
 
-#section-2 , #section-2 ul li {
+#section-2,
+#section-2 ul li {
   color: #555555;
   font-size: 16px;
 }
@@ -134,7 +132,6 @@ footer h1 {
 #section-3 p {
   font-size: 16px;
 }
-
 
 /* event showcase styling */
 .showcase-group {
@@ -156,7 +153,7 @@ footer h1 {
   cursor: pointer;
 }
 
-.showcase-group div img{
+.showcase-group div img {
   scale: 1.1;
 }
 
@@ -185,8 +182,8 @@ footer h1 {
   max-height: 474px;
 }
 
-#horizontal-video div{
-	height: 100%;
+#horizontal-video div {
+  height: 100%;
 }
 
 #horizontal-video img {
@@ -317,19 +314,8 @@ footer {
   }
 }
 
-
-@media (min-width: 800px){
-	nav a.nav-link{
-		padding-right: 62px !important;
-	}
+@media (min-width: 800px) {
+  nav a.nav-link {
+    padding-right: 62px !important;
+  }
 }
-
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    --bs-gutter-x: 0.2rem;
-    --bs-gutter-y: 0;
-    width: 100%;
-    padding-right: 2px !important;
-    padding-left: 2px !important;
-    margin-right: auto;
-    margin-left: auto;
-}	
