@@ -14,6 +14,7 @@ body {
   --swiper-pagination-bullet-size: 12px;
   --swiper-pagination-bullet-width: 12px;
   --milk: #f8f9fa;
+  --bs-gutter-x: 1rem;
 }
 
 .bg-primary {
@@ -26,6 +27,7 @@ body {
 
 nav{
 	height: 100px;
+	transition: height 500ms ease-in-out;
 }
 
 nav div.container-fluid {
@@ -35,10 +37,6 @@ nav div.container-fluid {
 
 .nav-social-icon {
   color: var(--primary-color);
-}
-
-nav a.nav-link{
-	padding-right: 62px !important;
 }
 
 .playfair{
@@ -314,4 +312,11 @@ footer {
     transform: translateX(0px) !important;
     color: black;
   }
+}
+
+
+@media (min-width: 800px){
+	nav a.nav-link{
+		padding-right: 62px !important;
+	}
 }
