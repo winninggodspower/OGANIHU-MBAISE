@@ -14,7 +14,6 @@ body {
   --swiper-pagination-bullet-size: 12px;
   --swiper-pagination-bullet-width: 12px;
   --milk: #f8f9fa;
-  --bs-gutter-x: 1rem;
 }
 
 .bg-primary {
@@ -183,7 +182,11 @@ footer h1 {
 }
 
 #horizontal-video {
-  height: 345px;
+  max-height: 474px;
+}
+
+#horizontal-video div{
+	height: 100%;
 }
 
 #horizontal-video img {
@@ -320,3 +323,13 @@ footer {
 		padding-right: 62px !important;
 	}
 }
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 0.2rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: 2px !important;
+    padding-left: 2px !important;
+    margin-right: auto;
+    margin-left: auto;
+}	
