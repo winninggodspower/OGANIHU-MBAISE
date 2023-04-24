@@ -24,8 +24,29 @@ body {
   border-color: var(--primary-color) !important;
 }
 
+nav{
+	height: 100px;
+}
+
+nav div.container-fluid {
+	height: 100%;
+    /** align-content: center; **/ 	 
+}
+
 .nav-social-icon {
   color: var(--primary-color);
+}
+
+nav a.nav-link{
+	padding-right: 62px !important;
+}
+
+.playfair{
+	font-family: Playfair Display;
+}
+
+.text-primary{
+	color: var(--primary-color) !important;
 }
 
 .input-container {
@@ -41,6 +62,10 @@ body {
 .input-container input,
 textarea {
   color: var(--primary-color) !important;
+}
+
+#section-2 p {
+	line-height: 30px;
 }
 
 .input-container input,
@@ -63,8 +88,14 @@ form button {
 #section-3 h2,
 #section-4 h2,
 #section-5 h2,
-#section-6 h2 {
+#section-5 h3,
+#section-6 h2,
+footer h1 {
   font-family: 'Playfair Display', serif;
+}
+
+#section-4 h2{
+	color: var(--primary-color) !important;
 }
 
 #section-1 .swiper-slide {
@@ -83,22 +114,22 @@ form button {
 }
 
 #slide-2 {
-  background: linear-gradient(rgba(30, 31, 32, 0.4), rgba(30, 31, 32, 0.4)),
+  background: 
     url('./img/showcase/IMG-20221228-WA0042.png');
   background-size: cover;
 }
 
 #slide-3 {
-  background: linear-gradient(rgba(30, 31, 32, 0.4), rgba(30, 31, 32, 0.4)),
+  background: 
     url('./img/slide/IMG-20221228-WA0044.png');
 }
 
 #slide-4 {
-  background: linear-gradient(rgba(30, 31, 32, 0.4), rgba(30, 31, 32, 0.4)),
+  background: 
     url('./img/slide-1.png');
 }
 
-#section-2 p {
+#section-2 , #section-2 ul li {
   color: #555555;
   font-size: 16px;
 }
@@ -106,6 +137,7 @@ form button {
 #section-3 p {
   font-size: 16px;
 }
+
 
 /* event showcase styling */
 .showcase-group {
@@ -127,8 +159,12 @@ form button {
   cursor: pointer;
 }
 
+.showcase-group div img{
+  scale: 1.1;
+}
+
 .showcase-group div img:hover {
-  scale: 1.05;
+  scale: 1;
 }
 
 .showcase-group div:nth-child(2),
