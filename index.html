@@ -256,26 +256,36 @@
 			  <!-- Additional required wrapper -->
 				<div class="swiper-wrapper">
 					<!-- Slides -->
-					<div class="swiper-slide">
+					<div class="swiper-slide" data-swiper-autoplay="7000">
 						<div class="h-100 d-flex align-items-center justify-content-center">
-							<img src="img\showcase\WhatsApp Image 2023-03-23 at 11.20.png" width="80%" height="474px">
+							<img src="img\slider-image-1.png" width="100%" height="474px">
 						</div>
 					</div>
-					<div class="swiper-slide">
+					<div class="swiper-slide" data-swiper-autoplay="7000">
 						<div class="h-100 d-flex align-items-center justify-content-center">
-							<img src="img\showcase\WhatsApp Image 2023-03-23 at 11.20.png" width="80%"  height="474px">
+							<img src="img\slider-image-2.png" width="100%"height="474px">
 						</div>
 					</div>
-					<div class="swiper-slide">
+					<div class="swiper-slide" data-swiper-autoplay="7000">
 						<div class="h-100 d-flex align-items-center justify-content-center">
-							<img src="img\showcase\WhatsApp Image 2023-03-23 at 11.20.png" width="80%" height="474px">
+							<img src="img\slider-image-3.png" width="100%" height="474px">
+						</div>
+					</div>
+					<div class="swiper-slide" data-swiper-autoplay="7000">
+						<div class="h-100 d-flex align-items-center justify-content-center">
+							<img src="img\slider-image-4.png" width="100%"height="474px">
+						</div>
+					</div>
+					<div class="swiper-slide" data-swiper-autoplay="7000">
+						<div class="h-100 d-flex align-items-center justify-content-center">
+							<img src="img\slider-image-5.png" width="100%"height="474px">
 						</div>
 					</div>
 				</div>
 	
 				<!-- If we need navigation buttons -->
-				<div class="swiper-button-prev" style="height: fit-content; color: #f8f9fa;"></div>
-				<div class="swiper-button-next" style="height: fit-content; color: #f8f9fa;"></div>
+				<div class="swiper-button-prev" style="height: fit-content; color: #b1b1b1;"></div>
+				<div class="swiper-button-next" style="height: fit-content; color: #b1b1b1;"></div>
 
 			</div>
         </div>
@@ -581,7 +591,6 @@
 			  direction: 'horizontal',
 			  loop: true,
 
-
 			  // Navigation arrows
 			  navigation: {
 				nextEl: '.swiper-button-prev',
@@ -592,6 +601,7 @@
 			  scrollbar: {
 				el: '.swiper-scrollbar-slide',
 			  },
+			  
         });
 
         var log2Swiper = new Swiper(".log2Swiper", {
