@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>OGANIHU MBAISE</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- bootstrap cnds -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-0" aria-label="Thirteenth navbar example">
+        <div class="container-fluid">
+            <a class="navbar-brand col-lg-3 fw-bold d-block d-lg-none" style="width: fit-content;" href="#">
+                <img class="brand-img" class="" src="./img/logo.svg">
+                OGANIHU MBAISE
+            </a>
+
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false"
+                aria-label="Toggle navigation" id="navbar-toggler-button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-center" id="navbarsExample11" style="z-index: 3;">
+                <a class="navbar-brand fw-bold d-none d-lg-block"
+                    style="font-family: Playfair Display; font-size: 28px; width: fit-content;" href="#">
+                    <img class="brand-img" class="" src="./img/logo.svg">
+                    OGANIHU MBAISE
+                </a>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-2">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#section-5">Membership</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="ms-lg-3 justify-content-lg-end " style="z-index: 3;">
+                    <a href="#" class="me-2 nav-social-icon">
+                        <img src="./img/facebook.svg" alt="facebook link" />
+                    </a>
+                    <a href="#" class="me-2 nav-social-icon">
+                        <img src="./img/twitter.svg" alt="facebook link" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="section-6" class="bg-milk py-5 ">
+        <div class="container mx-auto row row-cols-1 row-cols-md-2 gx-5 py-2 pb-5">
+
+            <div class="col bg-primary text-white px-4 py-5" style="border-radius: 8px;">
+                <h2 class="text-center">Get in Touch</h2>
+                <div class="h-100 d-flex flex-column justify-content-evenly fw-bold">
+                    <div class="d-flex mb-3">
+                        <img src="./img/phoneIcon.svg" alt="">
+                        <p class="ms-2 mb-0" style="line-height: 31.99px;">
+                            234 8064760847<br>
+                            234 8037505184
+                        </p>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <img src="./img/emailIcon.svg" alt="">
+                        <div class="ms-2">
+                            <span class="fw-light" style="font-family: Roboto, sans-serif;">Email</span>
+                            <p class="m-0">
+                                Hello@studio.co
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <img src="./img/locationIcon.svg" alt="">
+                        <div class="ms-2">
+                            <p class="m-0" style="line-height: 28px;">C/O Ekeanyanwu & Associates, Old Brooklyn Hotel
+                                Building, No. 22, Peremabiri
+                                Street, D Line,
+                                P.O Box 11455, Port-Harcour
+                                Rivers State.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col py-5 ">
+                <h3 class="fw-bold mb-3">Come and Join Us</h3>
+
+                <form action="https://formsubmit.co/support@oganihumbaise.org" method="post">
+                    <div class="input-container">
+                        <label for="first_name" class="form-label">First Name</label>
+                        <input name="first name" type="text" class="form-control border-primary border" id="first_name"
+                            placeholder="Enter your first name" required aria-describedby="emailHelp">
+                    </div>
+                    <div class="input-container">
+                        <label for="last_name" class="form-label">Last Name</label>
+                        <input name="last name" type="text" class="form-control border-primary border" id="last_name"
+                            placeholder="Enter your last name" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input name="email" type="email" class="form-control border-primary border" id="email"
+                            placeholder="Enter your email" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea name="message" class="form-control border-primary border"
+                            placeholder="Enter your message" id="message" required rows="3"></textarea>
+                    </div>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_autoresponse"
+                        value="Thanks for contacting OGANIHU MBAISE 🎉. we'll get back to you soon">
+                    <button type="submit" class="btn bg-primary text-white px-4 py-2">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class=" pb-0 mx-auto bg-primary text-white">
+        <div class="mx-auto" style="max-width: 95%;">
+            <div class="row pb-5 mb-4">
+                <div class="col-12 col-md-3 mb-3 text-center text-md-start">
+                    <h1 class="fw-bold" style="font-size: 22px;"> Oganihu Mbaise</h1>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Contact Us</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About Us</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-4 mb-3 text-center text-md-start">
+                    <h5>Contact Us</h5>
+
+                    <p>C/O Ekeanyanwu & Associates, Old Brooklyn Hotel Building, No. 22, Peremabiri Street, D Line, P.O
+                        Box 11455, Port-Harcour Rivers State. </p>
+                    <p>info@oganihumbaise.org</p>
+                    <p> 2348037505184; 2348064760847</p>
+                </div>
+
+                <div class="col-md-4 offset-md-1 mb-3 text-center text-md-start">
+                    <form method="post" action="https://formsubmit.co/support@oganihumbaise.org">
+                        <h5>Want To Know More</h5>
+                        <p>Enter email address for more info on aganihu mbaise</p>
+                        <div class="d-flex flex-column gap-2 mx-auto mx-md-0" style="width: 280px; max-width: 100%;">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input type="hidden" name="usage: " value="newsletter subscription">
+                            <input id="newsletter1" type="text" name="email" class="form-control rounded-0"
+                                placeholder="Your E-Mail" style="height: 40px;">
+                            <button class="btn btn-outline-light rounded-0" type="submit"
+                                style="height: 40px;">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div style="background: #027259;">
+            <hr class="m-0 p-0 text-dark">
+            <div
+                class="d-flex flex-column flex-sm-row justify-content-between  container mx-auto py-2 mt-4 text-center text-md-start ok">
+                <p>© 2023 Copyright Oganihu Mbaise. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
