@@ -16,6 +16,10 @@ body {
   --milk: #f8f9fa;
 }
 
+.d-block{
+  object-position: top;
+}
+
 .bg-primary {
   background-color: var(--primary-color) !important;
 }
@@ -107,16 +111,21 @@ footer h1 {
 
 #slide-1 {
   background: linear-gradient(rgba(30, 31, 32, 0.4), rgba(30, 31, 32, 0.4)),
-    url('./img/slide/WhatsApp\ Image\ 2023-03-23\ at\ 11.20.png');
+    url('./img/slide/slide-1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #slide-2 {
-  background: url('./img/showcase/IMG-20221228-WA0042.png');
+  background: url('./img/slide/slide-2.jpeg');
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
 #slide-3 {
-  background: url('./img/slide/IMG-20221228-WA0044.png');
+  background: url('./img/slide/slide-3\ AM.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #slide-4 {
@@ -210,6 +219,11 @@ footer h1 {
 #officers-container img {
   max-width: 100%;
   object-fit: cover;
+}
+
+.swiper-slide {
+  /* background-position: center; */
+  background-position-y: center !important;
 }
 
 .swiper-slide h3 {
