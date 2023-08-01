@@ -109,27 +109,45 @@ footer h1 {
   object-fit: cover;
 }
 
+.slide-styles{
+  
+}
+
 #slide-1 {
   background: linear-gradient(rgba(30, 31, 32, 0.4), rgba(30, 31, 32, 0.4)),
     url('./img/slide/slide-1.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 #slide-2 {
   background: url('./img/slide/slide-2.jpeg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover ;
+  background-position: center !important;
 }
 
 #slide-3 {
   background: url('./img/slide/slide-3\ AM.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center !important;
+
 }
 
 #slide-4 {
-  background: url('./img/slide-1.png');
+  background: url('./img/slide/slide-4.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 20% !important;
+}
+
+#slide-5 {
+  background: url('./img/slide/slide-5.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center !important;
 }
 
 #section-2,
