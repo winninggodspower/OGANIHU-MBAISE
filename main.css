@@ -89,9 +89,13 @@ form button {
 #section-3 h2,
 #section-4 h2,
 #section-5 h2,
-#section-5 h3,
 #section-6 h2,
+#section-5 h3,
 footer h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+.playfair{
   font-family: 'Playfair Display', serif;
 }
 
